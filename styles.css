@@ -1,0 +1,30 @@
+
+body {
+    background: #332e2e;
+    /*background-image: url("power-line-background.svg");
+    background-color: #121212;
+    background-size: contain;*/
+}
+
+h1 {
+    color: rgb(245, 237, 237);
+}
+
+#header1 {
+    position:absolute;
+    top:25%;
+    left:40%;
+    text-align: center;
+    justify-content: center;
+    z-index: 1;
+    color: rgb(245, 237, 237);
+}
+
+svg { 
+    position:fixed; 
+    top:0; 
+    left:0; 
+    height:100%; 
+    width:100%; 
+    z-index: 0;   
+}
